@@ -13,11 +13,11 @@ php artisan bundle:install excelife
 
 ## Example
 
-The complete source code and sample data is available in `example` directory. You don't need it for Excelife to work. A snippet from there:
+The complete source code and sample data are available in `example` directory. You don't need it for Excelife to work. A snippet from there:
 
 ```
 $rows = Excelife::make('data.xls')
-  ->toAfter(0, '¹')
+  ->toAfter(0, 'ï¿½')
   ->match(function ($cells, $row) {
     if ($row->bgColor(1) === 'FFFF99') {
       return new Group($row, $cells[1]);
