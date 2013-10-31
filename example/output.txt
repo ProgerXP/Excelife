@@ -1,0 +1,10 @@
+Group 'Group 1'
+Product sku: 'SKU0001' title: 'First product' retail: '99' wholesale: '63.3'
+Product sku: 'SKU0002' title: 'Second item' retail: '109' wholesale: '59.17'
+Unavailable
+Group 'Group 2'
+Product sku: 'SKU0004' title: 'Product #4' retail: '203' wholesale: '76.5'
+Product sku: 'SKU0005' title: 'The fifth item' retail: '578' wholesale: '420'
+Unavailable
+Product sku: '' title: '' retail: '' wholesale: ''
+Product sku: '© "ABC Company"' title: '' retail: '' wholesale: ''
